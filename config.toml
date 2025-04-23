@@ -1,4 +1,5 @@
-baseURL = 'http://localhost:1313/satellite-characteristics/'
+baseURL = "https://mathieuc3502.github.io/eo-satelites-characteristics/"
+
 languageCode = 'en-us'
 title = 'Satellite Characteristics'
 theme = 'PaperMod'
@@ -11,5 +12,5 @@ theme = 'PaperMod'
 
 [[menu.main]]
   name = "Satellites"
-  url = "http://localhost:1313/satellite-characteristics/satellites/"
+  url = "/satellite-characteristics/satellites/"
   weight = 1
