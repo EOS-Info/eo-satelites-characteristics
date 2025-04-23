@@ -1,0 +1,3 @@
+From : [EO Portal](https://www.eoportal.org/satellite-missions/rose-l#sensor-complement)
+
+"With regards to forestry, ROSE-L SAR will be used for distinction between vegetated and non-vegetated areas, analysis of broad forest types, and, with time series of data, tracking of disturbances and changes in forest cover. ROSE-L will be particularly valuable in areas often under cloud cover, as its L-band SAR is able to penetrate such barriers, whereas other optical instruments cannot."

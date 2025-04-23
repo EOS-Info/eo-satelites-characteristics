@@ -1,0 +1,15 @@
+baseURL = 'http://localhost:1313/satellite-characteristics/'
+languageCode = 'en-us'
+title = 'Satellite Characteristics'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = "dark"
+  homeInfoParams = { Title = "EO Satellite Index"}
+  related = false
+  paginate = 0
+
+[[menu.main]]
+  name = "Satellites"
+  url = "http://localhost:1313/satellite-characteristics/satellites/"
+  weight = 1

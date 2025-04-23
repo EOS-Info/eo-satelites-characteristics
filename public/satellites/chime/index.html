@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/satellite-characteristics/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=satellite-characteristics/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Satellite Characteristics</title>
+<meta name="keywords" content="">
+<meta name="description" content="Sources :
+
+https://space.oscar.wmo.int/instruments/view/chime
+https://sentiwiki.copernicus.eu/web/chime
+Contradictory information is presented in both links regarding ground resolution and swath width
+
+Spectral Bands
+
+  
+      
+          Wavelength
+          NEΔL  (for land)
+          SNR @ reference L (for sea)
+      
+  
+  
+      
+          400-430 nm
+          0.40 W sr-1 m-2 µm-1
+          
+      
+      
+          400 nm
+          
+          2188 @ 62.95 W sr-1 m-2 µm-1
+      
+      
+          412.5 nm
+          
+          2061 @ 74.14 W sr-1 m-2 µm-1
+      
+      
+          430-450 nm
+          0.40 W sr-1 m-2 µm-1
+          
+      
+      
+          442.5 nm
+          
+          1811 @ 65.61 W sr-1 m-2 µm-1
+      
+      
+          490 nm
+          
+          1541 @ 51.21 W sr-1 m-2 µm-1
+      
+      
+          500-600 nm
+          0.28 W sr-1 m-2 µm-1
+          
+      
+      
+          510 nm
+          
+          1488 @ 44.39 W sr-1 m-2 µm-1
+      
+      
+          560 nm
+          
+          1280 @ 31.49 W sr-1 m-2 µm-1
+      
+      
+          600-830 nm
+          0.21 W sr-1 m-2 µm-1
+          
+      
+      
+          753.5 nm
+          
+          605 @ 10.33 W sr-1 m-2 µm-1
+      
+      
+          778.75 nm
+          
+          812 @ 9.18 W sr-1 m-2 µm-1
+      
+      
+          830-890 nm
+          0.19 W sr-1 m-2 µm-1
+          
+      
+      
+          890-940 nm
+          0.17 W sr-1 m-2 µm-1
+          
+      
+      
+          940-1130 nm
+          0.14 W sr-1 m-2 µm-1
+          
+      
+      
+          1130-1280 nm
+          0.10 W sr-1 m-2 µm-1
+          
+      
+      
+          1280-1330 nm
+          0.085 W sr-1 m-2 µm-1
+          
+      
+      
+          1330-1480 nm
+          best effort
+          
+      
+      
+          1480-1520 nm
+          0.05 W sr-1 m-2 µm-1
+          
+      
+      
+          1520-1760 nm
+          0.065 W sr-1 m-2 µm-1
+          
+      
+      
+          1760-1950 nm
+          best effort
+          
+      
+      
+          1950-2050 nm
+          0.05 W sr-1 m-2 µm-1
+          
+      
+      
+          2050-2450 nm
+          0.035 W sr-1 m-2 µm-1
+          
+      
+      
+          2450-2500 nm
+          best effort
+          
+      
+  
+">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/satellite-characteristics/satellites/chime/">
+<link crossorigin="anonymous" href="/satellite-characteristics/assets/css/stylesheet.6da9a63d25a9608bca2f7f907a030e887a7dd3c3f3918e4cc113129361414bda.css" integrity="sha256-bammPSWpYIvKL3&#43;QegMOiHp908PzkY5MwRMSk2FBS9o=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/satellite-characteristics/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/satellite-characteristics/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/satellite-characteristics/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/satellite-characteristics/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/satellite-characteristics/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/satellite-characteristics/satellites/chime/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class=" dark" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/satellite-characteristics/" accesskey="h" title="Satellite Characteristics (Alt + H)">Satellite Characteristics</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/satellite-characteristics/satellites/" title="Satellites">
+                    <span>Satellites</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      
+    </h1>
+    <div class="post-meta">
+
+</div>
+  </header> 
+  <div class="post-content"><p>Sources :</p>
+<ul>
+<li><a href="https://space.oscar.wmo.int/instruments/view/chime">https://space.oscar.wmo.int/instruments/view/chime</a></li>
+<li><a href="https://sentiwiki.copernicus.eu/web/chime">https://sentiwiki.copernicus.eu/web/chime</a>
+Contradictory information is presented in both links regarding ground resolution and swath width</li>
+</ul>
+<h2 id="spectral-bands">Spectral Bands<a hidden class="anchor" aria-hidden="true" href="#spectral-bands">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"><strong>Wavelength</strong></th>
+          <th style="text-align: center"><strong>NEΔL  (for land)</strong></th>
+          <th style="text-align: center"><strong>SNR @ reference L (for sea)</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">400-430 nm</td>
+          <td style="text-align: center">0.40 W sr-1 m-2 µm-1</td>
+          <td style="text-align: center"></td>
+      </tr>
+      <tr>
+          <td style="text-align: center">400 nm</td>
+          <td style="text-align: center"></td>
+          <td style="text-align: center">2188 @ 62.95 W sr-1 m-2 µm-1</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">412.5 nm</td>
+          <td style="text-align: center"></td>
+          <td style="text-align: center">2061 @ 74.14 W sr-1 m-2 µm-1</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">430-450 nm</td>
+          <td style="text-align: center">0.40 W sr-1 m-2 µm-1</td>
+          <td style="text-align: center"></td>
+      </tr>
+      <tr>
+          <td style="text-align: center">442.5 nm</td>
+          <td style="text-align: center"></td>
+          <td style="text-align: center">1811 @ 65.61 W sr-1 m-2 µm-1</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">490 nm</td>
+          <td style="text-align: center"></td>
+          <td style="text-align: center">1541 @ 51.21 W sr-1 m-2 µm-1</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">500-600 nm</td>
+          <td style="text-align: center">0.28 W sr-1 m-2 µm-1</td>
+          <td style="text-align: center"></td>
+      </tr>
+      <tr>
+          <td style="text-align: center">510 nm</td>
+          <td style="text-align: center"></td>
+          <td style="text-align: center">1488 @ 44.39 W sr-1 m-2 µm-1</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">560 nm</td>
+          <td style="text-align: center"></td>
+          <td style="text-align: center">1280 @ 31.49 W sr-1 m-2 µm-1</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">600-830 nm</td>
+          <td style="text-align: center">0.21 W sr-1 m-2 µm-1</td>
+          <td style="text-align: center"></td>
+      </tr>
+      <tr>
+          <td style="text-align: center">753.5 nm</td>
+          <td style="text-align: center"></td>
+          <td style="text-align: center">605 @ 10.33 W sr-1 m-2 µm-1</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">778.75 nm</td>
+          <td style="text-align: center"></td>
+          <td style="text-align: center">812 @ 9.18 W sr-1 m-2 µm-1</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">830-890 nm</td>
+          <td style="text-align: center">0.19 W sr-1 m-2 µm-1</td>
+          <td style="text-align: center"></td>
+      </tr>
+      <tr>
+          <td style="text-align: center">890-940 nm</td>
+          <td style="text-align: center">0.17 W sr-1 m-2 µm-1</td>
+          <td style="text-align: center"></td>
+      </tr>
+      <tr>
+          <td style="text-align: center">940-1130 nm</td>
+          <td style="text-align: center">0.14 W sr-1 m-2 µm-1</td>
+          <td style="text-align: center"></td>
+      </tr>
+      <tr>
+          <td style="text-align: center">1130-1280 nm</td>
+          <td style="text-align: center">0.10 W sr-1 m-2 µm-1</td>
+          <td style="text-align: center"></td>
+      </tr>
+      <tr>
+          <td style="text-align: center">1280-1330 nm</td>
+          <td style="text-align: center">0.085 W sr-1 m-2 µm-1</td>
+          <td style="text-align: center"></td>
+      </tr>
+      <tr>
+          <td style="text-align: center">1330-1480 nm</td>
+          <td style="text-align: center">best effort</td>
+          <td style="text-align: center"></td>
+      </tr>
+      <tr>
+          <td style="text-align: center">1480-1520 nm</td>
+          <td style="text-align: center">0.05 W sr-1 m-2 µm-1</td>
+          <td style="text-align: center"></td>
+      </tr>
+      <tr>
+          <td style="text-align: center">1520-1760 nm</td>
+          <td style="text-align: center">0.065 W sr-1 m-2 µm-1</td>
+          <td style="text-align: center"></td>
+      </tr>
+      <tr>
+          <td style="text-align: center">1760-1950 nm</td>
+          <td style="text-align: center">best effort</td>
+          <td style="text-align: center"></td>
+      </tr>
+      <tr>
+          <td style="text-align: center">1950-2050 nm</td>
+          <td style="text-align: center">0.05 W sr-1 m-2 µm-1</td>
+          <td style="text-align: center"></td>
+      </tr>
+      <tr>
+          <td style="text-align: center">2050-2450 nm</td>
+          <td style="text-align: center">0.035 W sr-1 m-2 µm-1</td>
+          <td style="text-align: center"></td>
+      </tr>
+      <tr>
+          <td style="text-align: center">2450-2500 nm</td>
+          <td style="text-align: center">best effort</td>
+          <td style="text-align: center"></td>
+      </tr>
+  </tbody>
+</table>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/satellite-characteristics/">Satellite Characteristics</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
